@@ -32,7 +32,6 @@ public class Config : IConfig
     public Configs.Items ItemConfigs { get; private set; } = null!;
 
     /// <inheritdoc/>
-    [Description("Whether or not this plugin is enabled.")]
     public bool IsEnabled { get; set; } = true;
 
     /// <summary>
